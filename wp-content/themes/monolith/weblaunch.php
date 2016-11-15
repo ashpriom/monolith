@@ -13,8 +13,8 @@ Template Name: Monolith Weblaunch
 
     <body>
 
-        <div id="birds"></div>
-        <div id="options"></div>
+        <!--<div id="birds"></div>
+        <div id="options"></div>-->
         
         <div class="header-container" id="section-header-ca">
             <div class="monolith-logo">
@@ -41,13 +41,13 @@ Template Name: Monolith Weblaunch
             </div>
         </div>
 
-        <script src="<?php echo get_template_directory_uri(); ?>/js/three.js"></script>
+        <!--<script src="<?php echo get_template_directory_uri(); ?>/js/three.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/Detector.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/stats.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/dat.gui.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/GPUComputationRenderer.js"></script>
 
-        <!-- shader for bird's position -->
+        <!-- shader for bird's position 
         <script id="fragmentShaderPosition" type="x-shader/x-fragment">
 
             uniform float time;
@@ -72,7 +72,7 @@ Template Name: Monolith Weblaunch
 
         </script>
 
-        <!-- shader for bird's velocity -->
+        <!-- shader for bird's velocity 
         <script id="fragmentShaderVelocity" type="x-shader/x-fragment">
 
             uniform float time;
@@ -297,7 +297,7 @@ Template Name: Monolith Weblaunch
 
         </script>
 
-        <!-- bird geometry shader -->
+        <!-- bird geometry shader 
         <script type="x-shader/x-fragment" id="birdFS">
 
             varying vec4 vColor;
@@ -711,7 +711,7 @@ Template Name: Monolith Weblaunch
 
             }
 
-        </script>
+        </script>-->
 
         <!-- MAIN CONTENT -->
         <div class="main-content-container">
@@ -834,8 +834,8 @@ Template Name: Monolith Weblaunch
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        <!--</div>
+    </div>-->
 
 
             <div class="container-fluid section-highlight" id="section-highlight5">

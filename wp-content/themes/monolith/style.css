@@ -85,15 +85,9 @@ h1 {
 
 }
 
-h2 {
-
-	font-size: 1.75rem;
-
-	margin-bottom: 1em;
-
-	margin-top: 2em;
-
-}
+h2 {font-size: 1rem;
+    margin-bottom: 2em;
+    margin-top: 0.3em;}
 
 h3 {
 
@@ -1105,7 +1099,7 @@ body {
 
 		padding-right: 5.36%;
 
-		width: 62.5%;
+		width: 72.5%;
 
 	}
 
@@ -1142,6 +1136,7 @@ body {
 		padding-top: 0;
 
 		width: 26.78%;
+		padding-left: 30px;
 
 	}
 
@@ -2036,6 +2031,8 @@ a.category:hover {
 	overflow: hidden;
 
 }
+
+.article_thumbnail{border:1px solid #ddd;}
 
 .post-thumbnail img {
 
@@ -3159,7 +3156,7 @@ a.comment-edit-link:hover {
 
 	line-height: 1.5;
 
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 
 }
 
@@ -4088,3 +4085,10 @@ ul.grofile-urls {
 	}
 
 }
+
+.article-title{
+	font-size: 88% !important;
+	margin-top: 0px !important;
+}
+
+.widget_wpcom_social_media_icons_widget .genericon{font-size: 25px;}
